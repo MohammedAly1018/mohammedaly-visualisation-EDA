@@ -1,7 +1,3 @@
-
-
-
-
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
@@ -236,8 +232,6 @@ plt.tight_layout()
 plt.show()
 
 """Ttest"""
-
-
 
 # Define the months to analyze
 jan_2023 = df[df['Month'] == '2023-01-01'][['Air Arrivals', 'Land Arrivals', 'Sea Arrivals', 'Total Visitor Arrivals']]
